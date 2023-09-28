@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <title>Jeiner Robles - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/formulario/styles.css">
+</head>
+
+<body>
+    <header id="encabezado">
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="Logo" width="115px" height="115px">
+        </div>
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i> <!-- Cambiado a "fas" en lugar de "fa-solid" -->
+        </label>
+        <nav class="navbar">
+
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#works">Trabajos</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a class="login" href="login.html">LOGIN</a></li>
+                <li><a class="signup" href="">SIGN UP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="about">
+        <section class="seccion-principal">
+            <div class="div-sobreMi centrado">
+                <h2 id="sobre-mi" class="fuente-acento">Sobre mí</h2>
+                <p>¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                <div>
+                    <p class="fuente-oscura">Hola, mi nombre es Jeiner Robles Noguera. Soy ingeniero de sistemas
+                        de la
+                        Universidad
+                        Popular
+                        del Cesar y actualmente me encuentro enfocado en el area del desarrollo de software y uso de
+                        tecnologias
+                        modernas.</p>
+                </div>
+                <img src='imagenes/foto.jpg' width="150px" height="150px" alt="Foto Jeiner Robles" />
+
+            </div>
+
+            <div>
+                <img class="carrusel" src="imagenes/banner.jpg" alt="Foto Banner" width="1000px" height="300px">
+            </div>
+
+            <section class="seccion-trabajos" id="works">
+                <h2 class="fuente-acento">Trabajos</h2>
+                <div class="container">
+                    <div class="card-container">
+                        <div class="card">
+                            <span>
+                                <h5 class="fuente-acento">LavaUpar</h5>
+                            </span>
+                            <div class="image-container"> <img class="img-trabajo" src="imagenes/aplicaciones.png"
+                                    width="100%" height="100%" alt="Trabajo 1" /></div>
+                            <span class="text">En este trabajo se desarrolló una aplicación para automatizar los
+                                servicios que se ofrecen en
+                                la lavandería LavaUpar ubicada en la ciudad de Valledupar.</span>
+                            <span><a class="link" href="">Leer Más</a></span>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <span>
+                                <h5 class="fuente-acento">DevZeros School</h5>
+                            </span>
+                            <div class="image-container"> <img class="img-trabajo" src="imagenes/web.png" width="100%"
+                                    height="100%" alt="Trabajo 1" /></div>
+                            <span class="text">En este trabajo se desarrollaron unos módulos para la asignación y
+                                revisión de tareas dentro
+                                de la plataforma de DevZeros School para un óptimo rendimiento e interacción entre
+                                estudiantes y docentes.</span>
+                            <span><a class="link" href="">Leer Más</a></span>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <span>
+                                <h5 class="fuente-acento">SST</h5>
+                            </span>
+                            <div class="image-container"> <img class="img-trabajo" src="imagenes/sst.jpg" width="100%"
+                                    height="100%" alt="Trabajo 1" /></div>
+                            <span class="text">En este trabajo se desarrollaró una app de encuesta para trabajadores
+                                donde la intencion es tomar buenas desiciones en una empresa en temas de seguridad y
+                                salud en el trabajo.</span>
+                            <span><a class="link" href="">Leer Más</a></span>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <span>
+                                <h5 class="fuente-acento">Heladeria Uni</h5>
+                            </span>
+                            <div class="image-container"> <img class="img-trabajo" src="imagenes/aplicaciones.png"
+                                    width="100%" height="100%" alt="Trabajo 1" /></div>
+                            <span class="text">En este trabajo se desarrollaró una app de gestión de clientes y ventas
+                                de una heladeria ubicada en la Universidad Popular del Cesar.
+                            </span>
+                            <span><a class="link" href="">Leer Más</a></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <h2 class="fuente-acento" id="contact">Contacto</h2>
+        <div class="button">
+            <a href="https://www.instagram.com/jeinerroblesn/">Sígueme en Instagram</a>
+        </div>
+        <br><br>
+        <div class="button contacto">
+            <a href="https://wa.me/+573022236011">Contacto de Whatsapp</a>
+        </div>
+        <br><br>
+        <div class="fuente-clara">Copyright © 2023 - Jeiner Robles Noguera</div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

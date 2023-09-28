@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .header-container {
+    color: #3a3a3a;
+    background-color: #e3fed6;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 500px;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
